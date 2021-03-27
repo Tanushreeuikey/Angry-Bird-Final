@@ -19,8 +19,15 @@ class Pig extends BaseClass {
      pop();
    }
    
+   
  }
-
+ score()
+ {
+   if(this.Visiblity<0 && this.Visiblity>-501)
+   {
+     score++
+   }
+ }
 
 
 };
